@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\Background.cpp" />
+    <ClCompile Include="..\..\src\link.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
     <ClCompile Include="..\..\src\Overlap.cpp" />
     <ClCompile Include="..\..\src\ResourcePathWindows.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Background.h" />
+    <ClInclude Include="..\..\src\link.h" />
     <ClInclude Include="..\..\src\Overlap.h" />
     <ClInclude Include="..\..\src\ResourcePath.h" />
   </ItemGroup>
